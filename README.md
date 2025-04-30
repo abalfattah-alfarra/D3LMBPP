@@ -8,7 +8,7 @@ This repository contains code, configuration and sample data to reproduce the re
 
 ```bash
 # clone and install
-git clone https://github.com/abalfattah-alfarra/Bitcoin.git
+git clone https://github.com/abalfattah-alfarra/D3LMBPP.git
 cd Bitcoin
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
