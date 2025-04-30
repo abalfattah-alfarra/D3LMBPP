@@ -1,0 +1,63 @@
+2025-01-05 20:18:27,361:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:18:35,281:ERROR:HTTP error occurred while fetching on-chain data: 402 Client Error: Payment Required for url: https://api.blockchair.com/bitcoin/stats?key=abcd1234efgh5678ijkl9012mnop3456qrst7890uvwx
+2025-01-05 20:18:35,284:WARNING:On-chain data is empty. Proceeding without it.
+2025-01-05 20:18:35,284:INFO:All data fetched and merged successfully.
+2025-01-05 20:18:35,294:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 20:24:15,558:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:24:23,726:ERROR:Error in hash rate data: Path does not exist
+2025-01-05 20:24:36,325:ERROR:Error in transaction volume data: Path does not exist
+2025-01-05 20:24:36,325:WARNING:No on-chain metrics were fetched successfully from CryptoCompare.
+2025-01-05 20:24:36,329:WARNING:On-chain data is empty. Proceeding without it.
+2025-01-05 20:24:36,329:INFO:All data fetched and merged successfully.
+2025-01-05 20:24:54,628:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:25:05,935:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:25:10,944:ERROR:Error in hash rate data: Path does not exist
+2025-01-05 20:25:16,078:ERROR:Error in transaction volume data: Path does not exist
+2025-01-05 20:25:16,078:WARNING:No on-chain metrics were fetched successfully from CryptoCompare.
+2025-01-05 20:25:16,083:WARNING:On-chain data is empty. Proceeding without it.
+2025-01-05 20:25:16,083:INFO:All data fetched and merged successfully.
+2025-01-05 20:25:16,091:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 20:47:32,937:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:47:33,943:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 20:47:34,703:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 20:47:55,754:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:47:58,858:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 20:48:06,672:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 20:53:11,808:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:53:12,054:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 20:53:12,313:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 20:53:12,315:INFO:All data fetched and merged successfully.
+2025-01-05 20:53:12,322:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 20:55:06,759:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 20:55:07,211:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 20:55:07,748:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 20:55:07,751:INFO:All data fetched and merged successfully.
+2025-01-05 20:55:07,757:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 21:01:08,085:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 21:01:08,963:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 21:01:09,673:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 21:01:09,677:INFO:All data fetched and merged successfully.
+2025-01-05 21:01:09,685:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 21:01:09,752:INFO:Scaler object saved successfully to D:/bitcoin/scaler_standard.pkl.
+2025-01-05 21:01:09,759:INFO:Preprocessed data saved successfully to D:/bitcoin/preprocessed_combined_data.csv.
+2025-01-05 21:03:11,896:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 21:03:13,687:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 21:03:14,936:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 21:03:14,939:INFO:All data fetched and merged successfully.
+2025-01-05 21:03:14,946:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 21:03:14,996:INFO:Scaler object saved successfully to D:/bitcoin/scaler_standard.pkl.
+2025-01-05 21:03:15,000:INFO:Preprocessed data saved successfully to D:/bitcoin/preprocessed_combined_data.csv.
+2025-01-05 21:06:53,591:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 21:06:54,655:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 21:06:55,769:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 21:06:55,772:INFO:All data fetched and merged successfully.
+2025-01-05 21:06:55,779:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 21:06:55,827:INFO:Scaler object saved successfully to D:/bitcoin/scaler_standard.pkl.
+2025-01-05 21:06:55,831:INFO:Preprocessed data saved successfully to D:/bitcoin/preprocessed_combined_data.csv.
+2025-01-05 21:10:04,670:INFO:Successfully fetched market data from CoinGecko.
+2025-01-05 21:10:08,499:INFO:Successfully fetched hash rate data from Blockchain.com.
+2025-01-05 21:10:10,282:INFO:Successfully fetched transaction volume data from Blockchain.com.
+2025-01-05 21:10:10,285:INFO:All data fetched and merged successfully.
+2025-01-05 21:10:10,293:INFO:Combined data saved successfully to D:/bitcoin/combined_data.csv.
+2025-01-05 21:10:10,365:INFO:Scaler object saved successfully to D:/bitcoin/scaler_standard.pkl.
+2025-01-05 21:10:10,373:INFO:Preprocessed data saved successfully to D:/bitcoin/preprocessed_combined_data.csv.

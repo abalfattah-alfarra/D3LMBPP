@@ -1,0 +1,6 @@
+2025-01-05 21:20:52,409:INFO:Technical indicators added successfully.
+2025-01-05 21:20:52,409:INFO:Time-based features added successfully.
+2025-01-05 21:20:52,409:INFO:Lagged features added successfully.
+2025-01-05 21:20:52,409:INFO:Missing values after feature engineering handled successfully.
+2025-01-05 21:20:52,428:INFO:Feature scaler saved successfully to D:/bitcoin/features\feature_scaler.pkl.
+2025-01-05 21:20:52,441:INFO:Feature-engineered data saved successfully to D:/bitcoin/features\feature_engineered_data.csv.

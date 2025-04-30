@@ -1,0 +1,11 @@
+tensorflow>=2.13
+pandas
+numpy
+scikit-learn
+matplotlib
+transformers
+yfinance
+requests
+tqdm
+shap
+lime

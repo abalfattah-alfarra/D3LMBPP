@@ -1,0 +1,65 @@
+2025-01-05 21:58:08,360:INFO:Feature-engineered data loaded successfully.
+2025-01-05 21:58:08,362:INFO:Target variable 'Target_Price' defined successfully.
+2025-01-05 21:58:08,364:INFO:Data split into 80% training and 20% testing.
+2025-01-05 21:58:08,678:INFO:Linear Regression trained successfully.
+2025-01-05 21:58:09,600:INFO:Random Forest trained successfully.
+2025-01-05 21:58:10,275:INFO:XGBoost trained successfully.
+2025-01-05 21:58:10,275:INFO:All models trained successfully.
+2025-01-05 21:58:10,280:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 21:58:10,299:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 21:58:10,320:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 21:58:10,322:INFO:Model evaluation completed successfully.
+2025-01-05 21:58:47,666:INFO:Best parameters for Random Forest: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2025-01-05 21:58:48,905:INFO:Random Forest retrained successfully with best parameters.
+2025-01-05 21:58:48,905:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 21:58:48,925:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 21:58:48,940:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 21:58:48,966:INFO:Random Forest Tuned Performance: MAE=1.89, RMSE=1.99, R2_Score=-8.3979
+2025-01-05 21:58:48,967:INFO:Model evaluation completed successfully.
+2025-01-05 21:58:48,968:INFO:Best Model: Linear Regression with RMSE: 0.71
+2025-01-05 21:58:48,970:INFO:Best model 'Linear Regression' saved successfully to D:/bitcoin/models\best_model_Linear_Regression.joblib.
+2025-01-05 21:58:48,970:INFO:Model development completed successfully.
+2025-01-05 22:08:33,496:INFO:Feature-engineered data loaded successfully.
+2025-01-05 22:08:33,496:INFO:Target variable 'Target_Price' defined successfully.
+2025-01-05 22:08:33,511:INFO:Data split into 80% training and 20% testing.
+2025-01-05 22:08:33,511:INFO:Linear Regression trained successfully.
+2025-01-05 22:08:34,186:INFO:Random Forest trained successfully.
+2025-01-05 22:08:34,583:INFO:XGBoost trained successfully.
+2025-01-05 22:08:34,583:INFO:All models trained successfully.
+2025-01-05 22:08:34,585:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 22:08:34,598:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 22:08:34,615:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 22:08:34,615:INFO:Model evaluation completed successfully.
+2025-01-05 22:09:03,926:INFO:Best parameters for Random Forest: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2025-01-05 22:09:04,979:INFO:Random Forest retrained successfully with best parameters.
+2025-01-05 22:09:04,979:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 22:09:04,979:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 22:09:04,994:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 22:09:05,018:INFO:Random Forest Tuned Performance: MAE=1.89, RMSE=1.99, R2_Score=-8.3979
+2025-01-05 22:09:05,018:INFO:Model evaluation completed successfully.
+2025-01-05 22:09:05,027:INFO:Linear Regression saved successfully to D:/bitcoin/models\best_model_Linear_Regression.joblib.
+2025-01-05 22:09:05,058:INFO:Random Forest saved successfully to D:/bitcoin/models\best_model_Random_Forest.joblib.
+2025-01-05 22:09:05,074:INFO:XGBoost saved successfully to D:/bitcoin/models\best_model_XGBoost.joblib.
+2025-01-05 22:09:05,153:INFO:Random Forest Tuned saved successfully to D:/bitcoin/models\best_model_Random_Forest_Tuned.joblib.
+2025-01-05 22:09:05,153:INFO:Model development completed successfully.
+2025-01-05 22:44:36,299:INFO:Feature-engineered data loaded successfully.
+2025-01-05 22:44:36,299:INFO:Target variable 'Target_Price' defined successfully.
+2025-01-05 22:44:36,299:INFO:Data split into 80% training and 20% testing.
+2025-01-05 22:44:36,349:INFO:Linear Regression trained successfully.
+2025-01-05 22:44:37,213:INFO:Random Forest trained successfully.
+2025-01-05 22:44:37,789:INFO:XGBoost trained successfully.
+2025-01-05 22:44:37,789:INFO:All models trained successfully.
+2025-01-05 22:44:37,789:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 22:44:37,814:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 22:44:37,834:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 22:44:37,834:INFO:Model evaluation completed successfully.
+2025-01-05 22:45:06,899:INFO:Best parameters for Random Forest: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2025-01-05 22:45:08,112:INFO:Random Forest retrained successfully with best parameters.
+2025-01-05 22:45:08,112:INFO:Linear Regression Performance: MAE=0.57, RMSE=0.71, R2_Score=-0.1751
+2025-01-05 22:45:08,112:INFO:Random Forest Performance: MAE=1.90, RMSE=2.01, R2_Score=-8.5303
+2025-01-05 22:45:08,128:INFO:XGBoost Performance: MAE=2.04, RMSE=2.14, R2_Score=-9.8333
+2025-01-05 22:45:08,160:INFO:Random Forest Tuned Performance: MAE=1.89, RMSE=1.99, R2_Score=-8.3979
+2025-01-05 22:45:08,160:INFO:Model evaluation completed successfully.
+2025-01-05 22:45:08,165:INFO:Best Model: Linear Regression with RMSE: 0.71
+2025-01-05 22:45:08,165:INFO:Best model 'Linear Regression' saved successfully to D:/bitcoin/models\best_model_Linear_Regression.joblib.
+2025-01-05 22:45:08,165:INFO:Model development completed successfully.
