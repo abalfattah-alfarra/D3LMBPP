@@ -1,0 +1,871 @@
+2025-01-05 23:40:17,219:INFO:Data loaded successfully.
+2025-01-05 23:41:23,361:INFO:Data loaded successfully.
+2025-01-05 23:41:39,618:INFO:Data loaded successfully.
+2025-01-05 23:42:58,964:ERROR:Data file not found at D:/bitcoin/features\clean_feature_engineered_data.csv.
+2025-01-05 23:45:12,491:INFO:Data loaded successfully.
+2025-01-05 23:45:55,100:INFO:Data loaded successfully.
+2025-01-05 23:46:06,841:INFO:Data loaded successfully.
+2025-01-05 23:46:46,050:INFO:Data loaded successfully.
+2025-01-06 02:37:30,585:INFO:Data loaded successfully.
+2025-01-06 02:38:06,828:INFO:Top 20 features selected based on RFE.
+2025-01-06 02:38:06,848:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-06 02:38:06,848:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-06 02:38:06,848:INFO:Data preprocessed: 177 training samples, 22 testing samples.
+2025-01-06 02:38:07,000:INFO:Enhanced LSTM model built and compiled.
+2025-01-06 11:42:36,304:INFO:Data loaded successfully.
+2025-01-06 11:48:48,040:INFO:Data loaded successfully.
+2025-01-06 11:49:58,515:INFO:Data loaded successfully.
+2025-01-06 11:53:21,143:INFO:Data loaded successfully.
+2025-01-06 11:53:58,392:INFO:Data loaded successfully.
+2025-01-06 11:54:36,709:INFO:Data loaded successfully.
+2025-01-06 11:55:23,662:INFO:Top 20 features selected based on RFE.
+2025-01-06 11:55:23,677:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-06 11:55:23,677:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-06 11:55:23,681:INFO:Data preprocessed: 178 training samples, 22 testing samples.
+2025-01-06 11:55:23,944:INFO:Enhanced LSTM model built and compiled.
+2025-01-06 12:00:04,566:INFO:Data loaded successfully.
+2025-01-06 12:00:49,987:INFO:Top 20 features selected based on RFE.
+2025-01-08 11:40:06,160:INFO:Data loaded successfully.
+2025-01-08 11:40:06,162:INFO:Starting data preprocessing.
+2025-01-08 11:40:06,162:INFO:Scaling features.
+2025-01-08 11:40:06,167:INFO:Scaling target variable.
+2025-01-08 11:40:06,172:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 11:40:06,172:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 11:40:06,172:INFO:Performing feature selection based on correlation.
+2025-01-08 11:40:06,184:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 11:40:06,186:INFO:Reduced feature scaler saved to D:/bitcoin/models\scaler_features_reduced.joblib.
+2025-01-08 11:40:06,187:INFO:Creating sequences for LSTM.
+2025-01-08 11:40:06,187:INFO:Data preprocessed: (218, 7, 33) samples, (218, 1) targets.
+2025-01-08 11:40:06,187:INFO:Starting Fold 1.
+2025-01-08 11:40:06,187:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 11:40:06,205:INFO:Starting feature selection and PCA.
+2025-01-08 11:40:54,190:INFO:Selected Features after RFE: ['MA_50', 'Bollinger_Low', 'Month', 'Month_Sin']
+2025-01-08 11:40:54,198:INFO:PCA reduced features from 20 to 5
+2025-01-08 12:25:21,882:INFO:Data loaded successfully.
+2025-01-08 12:25:21,890:INFO:Starting data preprocessing.
+2025-01-08 12:25:21,890:INFO:Scaling features.
+2025-01-08 12:25:21,896:INFO:Scaling target variable.
+2025-01-08 12:25:21,901:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 12:25:21,901:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 12:25:21,901:INFO:Performing feature selection based on correlation.
+2025-01-08 12:25:21,914:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 12:25:21,917:INFO:Reduced feature scaler saved to D:/bitcoin/models\scaler_features_reduced.joblib.
+2025-01-08 12:25:21,917:INFO:Creating sequences for LSTM.
+2025-01-08 12:25:21,917:INFO:Data preprocessed: (218, 7, 33) samples, (218, 1) targets.
+2025-01-08 12:25:21,918:INFO:Starting Fold 1.
+2025-01-08 12:25:21,918:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 12:25:21,918:INFO:Starting feature selection and PCA.
+2025-01-08 12:26:14,210:INFO:Selected Features after RFE: ['MA_50', 'Bollinger_Low', 'Month']
+2025-01-08 12:26:14,240:INFO:PCA reduced features from 10 to 3
+2025-01-08 12:26:14,240:ERROR:Reshape error: cannot reshape array of size 114 into shape (38,7,newaxis)
+2025-01-08 12:31:38,210:INFO:Data loaded successfully.
+2025-01-08 12:31:38,212:INFO:Starting data preprocessing.
+2025-01-08 12:31:38,212:INFO:Scaling features.
+2025-01-08 12:31:38,215:INFO:Scaling target variable.
+2025-01-08 12:31:38,219:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 12:31:38,219:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 12:31:38,219:INFO:Performing feature selection based on correlation.
+2025-01-08 12:31:38,229:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 12:31:38,231:INFO:Reduced feature scaler saved to D:/bitcoin/models\scaler_features_reduced.joblib.
+2025-01-08 12:31:38,232:INFO:Creating sequences for LSTM.
+2025-01-08 12:31:38,232:INFO:Data preprocessed: (218, 7, 33) samples, (218, 1) targets.
+2025-01-08 12:31:38,232:INFO:Starting Fold 1.
+2025-01-08 12:31:38,232:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 12:31:38,232:INFO:Starting feature selection and PCA.
+2025-01-08 12:46:26,470:INFO:Data loaded successfully.
+2025-01-08 12:46:26,471:INFO:Starting data preprocessing.
+2025-01-08 12:46:26,472:INFO:Scaling features.
+2025-01-08 12:46:26,475:INFO:Scaling target variable.
+2025-01-08 12:46:26,479:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 12:46:26,479:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 12:46:26,479:INFO:Performing feature selection based on correlation.
+2025-01-08 12:46:26,489:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 12:46:26,492:INFO:Reduced feature scaler saved to D:/bitcoin/models\scaler_features_reduced.joblib.
+2025-01-08 12:46:26,492:INFO:Creating sequences for LSTM.
+2025-01-08 12:46:26,492:INFO:Data preprocessed: (218, 7, 33) samples, (218, 1) targets.
+2025-01-08 12:46:26,493:INFO:Starting Fold 1.
+2025-01-08 12:46:26,493:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 12:46:26,493:INFO:Starting feature selection and PCA.
+2025-01-08 19:13:27,740:INFO:Data loaded successfully.
+2025-01-08 19:13:27,748:INFO:Removing highly correlated features.
+2025-01-08 19:13:27,761:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 19:13:27,762:INFO:Performing Recursive Feature Elimination (RFE).
+2025-01-08 19:13:36,159:INFO:Selected Features after RFE: ['price', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Month_Cos', 'TransactionVolume_Lag_7']
+2025-01-08 19:13:36,195:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer.joblib.
+2025-01-08 19:13:36,195:INFO:Performing Principal Component Analysis (PCA).
+2025-01-08 19:13:36,203:INFO:PCA reduced features from 10 to 2
+2025-01-08 19:13:36,204:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer.joblib.
+2025-01-08 19:13:36,204:INFO:Selected features saved to D:/bitcoin/models\selected_features.txt.
+2025-01-08 19:13:36,205:INFO:Creating sequences for LSTM.
+2025-01-08 19:13:36,205:INFO:Created sequences: (218, 7, 2) samples, (218,) targets.
+2025-01-08 19:13:36,205:INFO:Starting Fold 1.
+2025-01-08 19:13:36,205:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 19:13:36,205:INFO:Building the simplified LSTM model.
+2025-01-08 19:13:36,414:INFO:Simplified LSTM model built and compiled.
+2025-01-08 19:13:43,181:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-08 19:13:43,181:INFO:Evaluating the model.
+2025-01-08 19:13:43,515:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.50, RMSE=0.60, R2_Score=-3.9590
+2025-01-08 19:13:43,778:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-08 19:13:44,045:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-08 19:13:44,070:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-08 19:13:44,070:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 19:13:44,079:INFO:Linear Regression Performance: MAE=0.27, RMSE=0.31, R2_Score=-0.3086
+2025-01-08 19:13:44,355:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 19:13:44,589:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 19:13:44,589:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 19:13:44,651:INFO:XGBoost Regressor Performance: MAE=0.31, RMSE=0.36, R2_Score=-0.8094
+2025-01-08 19:13:44,931:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 19:13:45,175:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 19:13:45,176:INFO:Starting Fold 2.
+2025-01-08 19:13:45,176:INFO:Fold 2 - Training samples: 74, Testing samples: 36
+2025-01-08 19:13:45,176:INFO:Building the simplified LSTM model.
+2025-01-08 19:13:45,212:INFO:Simplified LSTM model built and compiled.
+2025-01-08 19:13:50,089:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-08 19:13:50,090:INFO:Evaluating the model.
+2025-01-08 19:13:50,402:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.33, RMSE=0.38, R2_Score=-0.5069
+2025-01-08 19:13:50,665:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-08 19:13:50,900:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_2.png.
+2025-01-08 19:13:50,924:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-08 19:13:50,924:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 19:13:50,927:INFO:Linear Regression Performance: MAE=0.38, RMSE=0.48, R2_Score=-1.3530
+2025-01-08 19:13:51,199:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 19:13:51,589:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 19:13:51,589:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 19:13:51,644:INFO:XGBoost Regressor Performance: MAE=0.35, RMSE=0.47, R2_Score=-1.2481
+2025-01-08 19:13:51,926:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 19:13:52,153:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 19:13:52,153:INFO:Starting Fold 3.
+2025-01-08 19:13:52,153:INFO:Fold 3 - Training samples: 110, Testing samples: 36
+2025-01-08 19:13:52,153:INFO:Building the simplified LSTM model.
+2025-01-08 19:13:52,192:INFO:Simplified LSTM model built and compiled.
+2025-01-08 19:13:55,829:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-08 19:13:55,830:INFO:Evaluating the model.
+2025-01-08 19:13:55,994:WARNING:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000259F1C16440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 19:13:56,124:WARNING:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000259F1C16440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 19:13:56,149:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.31, RMSE=0.39, R2_Score=-1.8143
+2025-01-08 19:13:56,408:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-08 19:13:56,641:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_3.png.
+2025-01-08 19:13:56,666:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-08 19:13:56,666:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 19:13:56,668:INFO:Linear Regression Performance: MAE=0.29, RMSE=0.34, R2_Score=-1.1180
+2025-01-08 19:13:56,926:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 19:13:57,181:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 19:13:57,181:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 19:13:57,248:INFO:XGBoost Regressor Performance: MAE=0.43, RMSE=0.52, R2_Score=-3.9882
+2025-01-08 19:13:57,534:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 19:13:57,751:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 19:13:57,751:INFO:Starting Fold 4.
+2025-01-08 19:13:57,751:INFO:Fold 4 - Training samples: 146, Testing samples: 36
+2025-01-08 19:13:57,751:INFO:Building the simplified LSTM model.
+2025-01-08 19:13:57,791:INFO:Simplified LSTM model built and compiled.
+2025-01-08 19:14:02,722:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-08 19:14:02,722:INFO:Evaluating the model.
+2025-01-08 19:14:03,102:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.24, RMSE=0.30, R2_Score=-0.3364
+2025-01-08 19:14:03,416:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-08 19:14:03,714:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_4.png.
+2025-01-08 19:14:03,745:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-08 19:14:03,745:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 19:14:03,748:INFO:Linear Regression Performance: MAE=0.18, RMSE=0.23, R2_Score=0.2546
+2025-01-08 19:14:04,010:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 19:14:04,226:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 19:14:04,226:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 19:14:04,308:INFO:XGBoost Regressor Performance: MAE=0.24, RMSE=0.33, R2_Score=-0.6230
+2025-01-08 19:14:04,592:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 19:14:05,006:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 19:14:05,008:INFO:Starting Fold 5.
+2025-01-08 19:14:05,008:INFO:Fold 5 - Training samples: 182, Testing samples: 36
+2025-01-08 19:14:05,008:INFO:Building the simplified LSTM model.
+2025-01-08 19:14:05,043:INFO:Simplified LSTM model built and compiled.
+2025-01-08 19:14:08,284:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-08 19:14:08,284:INFO:Evaluating the model.
+2025-01-08 19:14:08,596:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.44, RMSE=1.59, R2_Score=-3.3437
+2025-01-08 19:14:08,843:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-08 19:14:09,074:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_5.png.
+2025-01-08 19:14:09,100:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-08 19:14:09,100:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 19:14:09,102:INFO:Linear Regression Performance: MAE=1.62, RMSE=1.74, R2_Score=-4.2064
+2025-01-08 19:14:09,385:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 19:14:09,661:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 19:14:09,661:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 19:14:09,794:INFO:XGBoost Regressor Performance: MAE=1.72, RMSE=1.81, R2_Score=-4.6580
+2025-01-08 19:14:10,126:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 19:14:10,406:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 19:14:10,407:INFO:Regression script execution completed successfully.
+2025-01-08 21:04:12,588:INFO:Data loaded successfully.
+2025-01-08 21:04:12,588:INFO:Removing highly correlated features.
+2025-01-08 21:04:12,588:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 21:04:12,604:INFO:Creating sequences with sequence length = 14.
+2025-01-08 21:04:12,604:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 21:04:12,604:INFO:Starting Fold 1.
+2025-01-08 21:04:12,604:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 21:04:12,604:INFO:Performing RFE within fold.
+2025-01-08 21:08:15,370:INFO:Data loaded successfully.
+2025-01-08 21:08:15,370:INFO:Removing highly correlated features.
+2025-01-08 21:08:15,385:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 21:08:15,385:INFO:Creating sequences with sequence length = 14.
+2025-01-08 21:08:15,385:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 21:08:15,385:INFO:Starting Fold 1.
+2025-01-08 21:08:15,385:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 21:08:15,385:INFO:Performing RFE within fold.
+2025-01-08 21:10:46,221:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 21:10:46,243:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:10:46,243:INFO:Applying PCA within fold.
+2025-01-08 21:10:46,243:INFO:PCA reduced features from 10 to 2
+2025-01-08 21:10:46,243:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:10:46,243:WARNING:PCA components (2) not divisible by sequence length (14). Adjusting.
+2025-01-08 21:10:46,243:INFO:Building the improved LSTM model.
+2025-01-08 21:10:46,495:INFO:Improved LSTM model built and compiled.
+2025-01-08 21:11:09,233:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-08 21:11:09,233:INFO:Evaluating the model.
+2025-01-08 21:11:10,224:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.49, RMSE=0.55, R2_Score=-3.8459
+2025-01-08 21:11:10,507:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-08 21:11:10,743:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-08 21:11:10,790:INFO:LSTM_Regressor_Fold_1 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-08 21:11:10,790:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 21:18:00,904:INFO:Data loaded successfully.
+2025-01-08 21:18:00,906:INFO:Removing highly correlated features.
+2025-01-08 21:18:00,916:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 21:18:00,917:INFO:Creating sequences with sequence length = 14.
+2025-01-08 21:18:00,917:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 21:18:00,917:INFO:Starting Fold 1.
+2025-01-08 21:18:00,918:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 21:18:00,918:INFO:Performing RFE within fold.
+2025-01-08 21:20:29,132:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 21:20:29,159:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:20:29,159:INFO:Applying PCA within fold.
+2025-01-08 21:20:29,160:INFO:PCA reduced features from 14 to 2
+2025-01-08 21:20:29,161:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:24:42,489:INFO:Data loaded successfully.
+2025-01-08 21:24:42,491:INFO:Removing highly correlated features.
+2025-01-08 21:24:42,505:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 21:24:42,506:INFO:Creating sequences with sequence length = 14.
+2025-01-08 21:24:42,508:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 21:24:42,508:INFO:Starting Fold 1.
+2025-01-08 21:24:42,508:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 21:24:42,509:INFO:Performing RFE within fold.
+2025-01-08 21:27:50,011:INFO:Selected Features after RFE: ['Bollinger_Low', 'Day']
+2025-01-08 21:27:50,065:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:27:50,065:INFO:Applying PCA within fold.
+2025-01-08 21:27:50,069:INFO:PCA reduced features from 28 to 14
+2025-01-08 21:27:50,070:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:27:50,070:INFO:Building the improved LSTM model.
+2025-01-08 21:27:50,305:INFO:Improved LSTM model built and compiled.
+2025-01-08 21:28:03,656:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-08 21:28:03,656:INFO:Evaluating the model.
+2025-01-08 21:28:05,242:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.35, RMSE=0.42, R2_Score=-1.7449
+2025-01-08 21:28:05,560:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-08 21:28:05,912:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-08 21:28:05,980:INFO:LSTM_Regressor_Fold_1 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-08 21:28:05,996:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 21:28:05,997:INFO:Linear Regression Performance: MAE=0.46, RMSE=0.49, R2_Score=-2.7850
+2025-01-08 21:28:06,413:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 21:28:07,056:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 21:28:07,056:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 21:28:07,144:INFO:XGBoost Regressor Performance: MAE=0.50, RMSE=0.60, R2_Score=-4.7658
+2025-01-08 21:28:07,662:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 21:28:08,080:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 21:28:08,080:INFO:Starting Fold 2.
+2025-01-08 21:28:08,080:INFO:Fold 2 - Training samples: 71, Testing samples: 35
+2025-01-08 21:28:08,081:INFO:Performing RFE within fold.
+2025-01-08 21:34:26,496:INFO:Selected Features after RFE: ['RSI_14', 'Bollinger_Low', 'Day']
+2025-01-08 21:34:26,531:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:34:26,531:INFO:Applying PCA within fold.
+2025-01-08 21:34:26,539:INFO:PCA reduced features from 28 to 14
+2025-01-08 21:34:26,540:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:34:26,541:INFO:Building the improved LSTM model.
+2025-01-08 21:34:26,662:INFO:Improved LSTM model built and compiled.
+2025-01-08 21:34:37,125:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-08 21:34:37,125:INFO:Evaluating the model.
+2025-01-08 21:34:38,711:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.26, RMSE=0.33, R2_Score=-0.1798
+2025-01-08 21:34:39,085:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-08 21:34:39,411:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_2.png.
+2025-01-08 21:34:39,466:INFO:LSTM_Regressor_Fold_2 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-08 21:34:39,466:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 21:34:39,470:INFO:Linear Regression Performance: MAE=0.64, RMSE=0.76, R2_Score=-5.1710
+2025-01-08 21:34:39,861:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 21:34:40,180:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 21:34:40,180:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 21:34:40,237:INFO:XGBoost Regressor Performance: MAE=0.55, RMSE=0.62, R2_Score=-3.1995
+2025-01-08 21:34:40,595:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 21:34:40,889:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 21:34:40,890:INFO:Starting Fold 3.
+2025-01-08 21:34:40,890:INFO:Fold 3 - Training samples: 106, Testing samples: 35
+2025-01-08 21:34:40,890:INFO:Performing RFE within fold.
+2025-01-08 21:44:09,589:INFO:Selected Features after RFE: ['price', 'Bollinger_Low', 'Day', 'Month', 'Month_Sin']
+2025-01-08 21:44:09,644:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:44:09,644:INFO:Applying PCA within fold.
+2025-01-08 21:44:09,647:INFO:PCA reduced features from 28 to 14
+2025-01-08 21:44:09,649:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:44:09,649:INFO:Building the improved LSTM model.
+2025-01-08 21:44:09,797:INFO:Improved LSTM model built and compiled.
+2025-01-08 21:44:22,192:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-08 21:44:22,193:INFO:Evaluating the model.
+2025-01-08 21:44:22,925:WARNING:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002B2C1C76A70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 21:44:23,592:WARNING:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002B2C1C76A70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 21:44:23,624:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.18, RMSE=0.24, R2_Score=0.0735
+2025-01-08 21:44:23,938:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-08 21:44:24,282:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_3.png.
+2025-01-08 21:44:24,358:INFO:LSTM_Regressor_Fold_3 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-08 21:44:24,358:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 21:44:24,361:INFO:Linear Regression Performance: MAE=0.49, RMSE=0.56, R2_Score=-4.1206
+2025-01-08 21:44:24,747:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 21:44:25,044:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 21:44:25,044:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 21:44:25,126:INFO:XGBoost Regressor Performance: MAE=0.21, RMSE=0.26, R2_Score=-0.0789
+2025-01-08 21:44:25,524:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 21:44:25,977:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 21:44:25,977:INFO:Starting Fold 4.
+2025-01-08 21:44:25,978:INFO:Fold 4 - Training samples: 141, Testing samples: 35
+2025-01-08 21:44:25,978:INFO:Performing RFE within fold.
+2025-01-08 21:56:33,166:INFO:Selected Features after RFE: ['Day', 'Month', 'Month_Sin']
+2025-01-08 21:56:33,198:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 21:56:33,198:INFO:Applying PCA within fold.
+2025-01-08 21:56:33,199:INFO:PCA reduced features from 28 to 14
+2025-01-08 21:56:33,199:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 21:56:33,199:INFO:Building the improved LSTM model.
+2025-01-08 21:56:33,291:INFO:Improved LSTM model built and compiled.
+2025-01-08 21:56:42,659:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-08 21:56:42,659:INFO:Evaluating the model.
+2025-01-08 21:56:43,656:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.29, RMSE=0.34, R2_Score=-0.6345
+2025-01-08 21:56:43,924:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-08 21:56:44,169:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_4.png.
+2025-01-08 21:56:44,219:INFO:LSTM_Regressor_Fold_4 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-08 21:56:44,219:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 21:56:44,221:INFO:Linear Regression Performance: MAE=0.54, RMSE=0.60, R2_Score=-4.0314
+2025-01-08 21:56:44,509:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 21:56:44,760:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 21:56:44,760:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 21:56:44,858:INFO:XGBoost Regressor Performance: MAE=0.37, RMSE=0.44, R2_Score=-1.6439
+2025-01-08 21:56:45,153:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 21:56:45,390:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 21:56:45,391:INFO:Starting Fold 5.
+2025-01-08 21:56:45,391:INFO:Fold 5 - Training samples: 176, Testing samples: 35
+2025-01-08 21:56:45,391:INFO:Performing RFE within fold.
+2025-01-08 22:10:52,287:INFO:Selected Features after RFE: ['Bollinger_Low', 'Month', 'Month_Sin']
+2025-01-08 22:10:52,315:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 22:10:52,315:INFO:Applying PCA within fold.
+2025-01-08 22:10:52,317:INFO:PCA reduced features from 28 to 14
+2025-01-08 22:10:52,318:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 22:10:52,318:INFO:Building the improved LSTM model.
+2025-01-08 22:10:52,407:INFO:Improved LSTM model built and compiled.
+2025-01-08 22:10:59,233:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-08 22:10:59,233:INFO:Evaluating the model.
+2025-01-08 22:11:00,136:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.62, RMSE=1.77, R2_Score=-4.9225
+2025-01-08 22:11:00,697:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-08 22:11:00,936:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_5.png.
+2025-01-08 22:11:00,979:INFO:LSTM_Regressor_Fold_5 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-08 22:11:00,979:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 22:11:00,981:INFO:Linear Regression Performance: MAE=1.17, RMSE=1.25, R2_Score=-1.9729
+2025-01-08 22:11:01,235:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-08 22:11:01,454:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-08 22:11:01,454:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-08 22:11:01,560:INFO:XGBoost Regressor Performance: MAE=1.84, RMSE=2.02, R2_Score=-6.7091
+2025-01-08 22:11:01,873:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-08 22:11:02,169:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-08 22:11:02,169:INFO:Regression script execution completed successfully.
+2025-01-08 22:23:22,966:INFO:Data loaded successfully.
+2025-01-08 22:23:22,972:INFO:Removing highly correlated features.
+2025-01-08 22:23:22,982:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 22:23:22,983:INFO:Creating sequences with sequence length = 14.
+2025-01-08 22:23:22,983:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 22:23:22,983:INFO:Starting Fold 1.
+2025-01-08 22:23:22,983:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 22:23:22,984:INFO:Performing RFE within fold.
+2025-01-08 22:26:51,977:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 22:26:52,008:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 22:26:52,008:INFO:Applying PCA within fold.
+2025-01-08 22:40:18,451:INFO:Data loaded successfully.
+2025-01-08 22:40:18,457:INFO:Removing highly correlated features.
+2025-01-08 22:40:18,469:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 22:40:18,471:INFO:Creating sequences with sequence length = 14.
+2025-01-08 22:40:18,472:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 22:40:18,472:INFO:Starting Fold 1.
+2025-01-08 22:40:18,472:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 22:40:18,472:INFO:Performing RFE within fold.
+2025-01-08 22:42:57,473:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 22:42:57,474:WARNING:RFE selected only 1 features instead of 3. Adjusting n_components accordingly.
+2025-01-08 22:42:57,506:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 22:42:57,506:INFO:Applying PCA within fold.
+2025-01-08 22:42:57,516:INFO:PCA reduced features from 3 to 1
+2025-01-08 22:42:57,517:INFO:PCA transformer saved to D:/bitcoin/models\pca_transformer_fold.joblib.
+2025-01-08 22:50:21,814:INFO:Data loaded successfully.
+2025-01-08 22:50:21,830:INFO:Removing highly correlated features.
+2025-01-08 22:50:21,830:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 22:50:21,830:INFO:Creating sequences with sequence length = 14.
+2025-01-08 22:50:21,830:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 22:50:21,830:INFO:Starting Fold 1.
+2025-01-08 22:50:21,830:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 22:50:21,830:INFO:Performing RFE within fold.
+2025-01-08 22:53:35,843:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 22:53:35,843:WARNING:RFE selected only 1 features instead of 3.
+2025-01-08 22:53:35,905:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 22:59:06,597:INFO:Data loaded successfully.
+2025-01-08 22:59:06,597:INFO:Removing highly correlated features.
+2025-01-08 22:59:06,613:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 22:59:06,617:INFO:Number of features before dropping: 76
+2025-01-08 22:59:06,617:INFO:Number of features after dropping: 33
+2025-01-08 22:59:06,618:INFO:Creating sequences with sequence length = 14.
+2025-01-08 22:59:06,618:INFO:Created sequences: (211, 14, 33) samples, (211,) targets.
+2025-01-08 22:59:06,618:INFO:Starting Fold 1.
+2025-01-08 22:59:06,618:INFO:Fold 1 - Training samples: 36, Testing samples: 35
+2025-01-08 22:59:06,618:INFO:Fold 1 - Number of features to select: 3
+2025-01-08 22:59:06,618:INFO:Performing RFE within fold.
+2025-01-08 23:02:09,060:INFO:Selected Features after RFE: ['Bollinger_Low']
+2025-01-08 23:02:09,060:WARNING:RFE selected only 1 features instead of 3.
+2025-01-08 23:02:09,103:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 23:02:09,103:ERROR:Fold 1: Mismatch in feature selection. Expected size 14, got 3. Skipping fold.
+2025-01-08 23:02:09,103:INFO:Starting Fold 2.
+2025-01-08 23:02:09,117:INFO:Fold 2 - Training samples: 71, Testing samples: 35
+2025-01-08 23:02:09,117:INFO:Fold 2 - Number of features to select: 7
+2025-01-08 23:02:09,117:INFO:Performing RFE within fold.
+2025-01-08 23:08:51,446:INFO:Selected Features after RFE: []
+2025-01-08 23:08:51,446:WARNING:RFE selected only 0 features instead of 7.
+2025-01-08 23:08:51,463:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 23:08:51,463:WARNING:Fold 2: No features selected. Skipping this fold.
+2025-01-08 23:08:51,478:INFO:Starting Fold 3.
+2025-01-08 23:08:51,478:INFO:Fold 3 - Training samples: 106, Testing samples: 35
+2025-01-08 23:08:51,478:INFO:Fold 3 - Number of features to select: 10
+2025-01-08 23:08:51,478:INFO:Performing RFE within fold.
+2025-01-08 23:19:18,283:INFO:Selected Features after RFE: ['price', 'Day', 'Month', 'Month_Sin']
+2025-01-08 23:19:18,284:WARNING:RFE selected only 4 features instead of 10.
+2025-01-08 23:19:18,328:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 23:19:18,328:ERROR:Fold 3: Mismatch in feature selection. Expected size 56, got 10. Skipping fold.
+2025-01-08 23:19:18,328:INFO:Starting Fold 4.
+2025-01-08 23:19:18,328:INFO:Fold 4 - Training samples: 141, Testing samples: 35
+2025-01-08 23:19:18,328:INFO:Fold 4 - Number of features to select: 14
+2025-01-08 23:19:18,328:INFO:Performing RFE within fold.
+2025-01-08 23:31:27,845:INFO:Selected Features after RFE: ['Month', 'Month_Sin']
+2025-01-08 23:31:27,845:WARNING:RFE selected only 2 features instead of 14.
+2025-01-08 23:31:27,878:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 23:31:27,878:ERROR:Fold 4: Mismatch in feature selection. Expected size 28, got 14. Skipping fold.
+2025-01-08 23:31:27,878:INFO:Starting Fold 5.
+2025-01-08 23:31:27,878:INFO:Fold 5 - Training samples: 176, Testing samples: 35
+2025-01-08 23:31:27,878:INFO:Fold 5 - Number of features to select: 17
+2025-01-08 23:31:27,878:INFO:Performing RFE within fold.
+2025-01-08 23:47:27,691:INFO:Selected Features after RFE: ['Bollinger_Low', 'Month_Sin']
+2025-01-08 23:47:27,691:WARNING:RFE selected only 2 features instead of 17.
+2025-01-08 23:47:27,723:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-08 23:47:27,723:ERROR:Fold 5: Mismatch in feature selection. Expected size 28, got 17. Skipping fold.
+2025-01-08 23:47:27,723:INFO:Regression script execution completed successfully.
+2025-01-09 07:38:48,331:INFO:Data loaded successfully.
+2025-01-09 07:38:48,337:INFO:Removing highly correlated features.
+2025-01-09 07:38:48,349:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-09 07:38:48,350:INFO:Number of features before dropping: 76
+2025-01-09 07:38:48,350:INFO:Number of features after dropping: 33
+2025-01-09 07:38:48,350:INFO:Starting Fold 1.
+2025-01-09 07:38:48,350:INFO:Fold 1 - Training samples: 40, Testing samples: 37
+2025-01-09 07:38:48,350:INFO:Fold 1 - Number of features to select: 4
+2025-01-09 07:38:48,350:INFO:Performing RFE within fold.
+2025-01-09 07:38:52,787:INFO:Selected Features after RFE: ['MA_50', 'Bollinger_Low', 'MACD_Diff', 'HashRate_Lag_2']
+2025-01-09 07:38:52,820:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-09 07:38:52,820:INFO:Number of features selected: 4
+2025-01-09 07:38:52,820:INFO:Creating sequences with sequence length = 14.
+2025-01-09 07:38:52,820:INFO:Created sequences: (63, 14, 4) samples, (63,) targets.
+2025-01-09 07:38:52,820:INFO:Fold 1 - Training sequences: (26, 14, 4), Testing sequences: (37, 14, 4)
+2025-01-09 07:38:52,820:INFO:Building the improved LSTM model.
+2025-01-09 07:38:53,065:INFO:Improved LSTM model built and compiled.
+2025-01-09 07:38:58,953:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-09 07:38:58,953:INFO:Evaluating the model.
+2025-01-09 07:38:59,283:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.33, RMSE=0.38, R2_Score=-0.3579
+2025-01-09 07:38:59,537:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-09 07:38:59,834:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-09 07:38:59,865:INFO:LSTM_Regressor_Fold_1 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-09 07:38:59,865:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:38:59,876:INFO:Linear Regression Performance: MAE=0.46, RMSE=0.55, R2_Score=-1.8100
+2025-01-09 07:39:00,175:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:39:00,407:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:39:00,407:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:39:00,479:INFO:XGBoost Regressor Performance: MAE=0.19, RMSE=0.23, R2_Score=0.5098
+2025-01-09 07:39:00,751:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:39:00,977:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:39:00,977:INFO:Starting Fold 2.
+2025-01-09 07:39:00,977:INFO:Fold 2 - Training samples: 77, Testing samples: 37
+2025-01-09 07:39:00,977:INFO:Fold 2 - Number of features to select: 7
+2025-01-09 07:39:00,978:INFO:Performing RFE within fold.
+2025-01-09 07:39:05,335:INFO:Selected Features after RFE: ['MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'Month', 'HashRate_Lag_2', 'HashRate_Lag_5']
+2025-01-09 07:39:05,367:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-09 07:39:05,367:INFO:Number of features selected: 7
+2025-01-09 07:39:05,367:INFO:Creating sequences with sequence length = 14.
+2025-01-09 07:39:05,367:INFO:Created sequences: (100, 14, 7) samples, (100,) targets.
+2025-01-09 07:39:05,367:INFO:Fold 2 - Training sequences: (63, 14, 7), Testing sequences: (37, 14, 7)
+2025-01-09 07:39:05,368:INFO:Building the improved LSTM model.
+2025-01-09 07:39:05,407:INFO:Improved LSTM model built and compiled.
+2025-01-09 07:39:11,272:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-09 07:39:11,273:INFO:Evaluating the model.
+2025-01-09 07:39:11,619:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.29, RMSE=0.37, R2_Score=-0.4339
+2025-01-09 07:39:11,880:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-09 07:39:12,148:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_2.png.
+2025-01-09 07:39:12,177:INFO:LSTM_Regressor_Fold_2 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-09 07:39:12,177:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:39:12,431:INFO:Linear Regression Performance: MAE=4.36, RMSE=4.77, R2_Score=-238.4246
+2025-01-09 07:39:12,729:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:39:13,041:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:39:13,041:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:39:13,202:INFO:XGBoost Regressor Performance: MAE=0.37, RMSE=0.48, R2_Score=-1.4097
+2025-01-09 07:39:13,641:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:39:13,880:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:39:13,881:INFO:Starting Fold 3.
+2025-01-09 07:39:13,881:INFO:Fold 3 - Training samples: 114, Testing samples: 37
+2025-01-09 07:39:13,881:INFO:Fold 3 - Number of features to select: 11
+2025-01-09 07:39:13,881:INFO:Performing RFE within fold.
+2025-01-09 07:39:18,638:INFO:Selected Features after RFE: ['price', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TransactionVolume_Lag_5']
+2025-01-09 07:39:18,667:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-09 07:39:18,667:INFO:Number of features selected: 11
+2025-01-09 07:39:18,667:INFO:Creating sequences with sequence length = 14.
+2025-01-09 07:39:18,668:INFO:Created sequences: (137, 14, 11) samples, (137,) targets.
+2025-01-09 07:39:18,668:INFO:Fold 3 - Training sequences: (100, 14, 11), Testing sequences: (37, 14, 11)
+2025-01-09 07:39:18,668:INFO:Building the improved LSTM model.
+2025-01-09 07:39:18,709:INFO:Improved LSTM model built and compiled.
+2025-01-09 07:39:29,676:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-09 07:39:29,676:INFO:Evaluating the model.
+2025-01-09 07:39:29,841:WARNING:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025017768670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-09 07:39:29,963:WARNING:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025017768670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-09 07:39:29,989:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.22, RMSE=0.28, R2_Score=-0.6243
+2025-01-09 07:39:30,260:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-09 07:39:30,483:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_3.png.
+2025-01-09 07:39:30,508:INFO:LSTM_Regressor_Fold_3 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-09 07:39:30,508:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:39:30,514:INFO:Linear Regression Performance: MAE=4.20, RMSE=4.53, R2_Score=-432.3038
+2025-01-09 07:39:30,772:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:39:31,005:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:39:31,005:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:39:31,318:INFO:XGBoost Regressor Performance: MAE=0.17, RMSE=0.20, R2_Score=0.1387
+2025-01-09 07:39:31,589:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:39:31,839:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:39:31,839:INFO:Starting Fold 4.
+2025-01-09 07:39:31,840:INFO:Fold 4 - Training samples: 151, Testing samples: 37
+2025-01-09 07:39:31,840:INFO:Fold 4 - Number of features to select: 15
+2025-01-09 07:39:31,840:INFO:Performing RFE within fold.
+2025-01-09 07:39:36,545:INFO:Selected Features after RFE: ['price', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Month_Sin', 'TotalVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_3', 'HashRate_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-09 07:39:36,575:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-09 07:39:36,575:INFO:Number of features selected: 15
+2025-01-09 07:39:36,575:INFO:Creating sequences with sequence length = 14.
+2025-01-09 07:39:36,576:INFO:Created sequences: (174, 14, 15) samples, (174,) targets.
+2025-01-09 07:39:36,576:INFO:Fold 4 - Training sequences: (137, 14, 15), Testing sequences: (37, 14, 15)
+2025-01-09 07:39:36,576:INFO:Building the improved LSTM model.
+2025-01-09 07:39:36,610:INFO:Improved LSTM model built and compiled.
+2025-01-09 07:39:40,929:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-09 07:39:40,929:INFO:Evaluating the model.
+2025-01-09 07:39:41,242:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.29, RMSE=0.33, R2_Score=-0.6859
+2025-01-09 07:39:41,490:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-09 07:39:41,706:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_4.png.
+2025-01-09 07:39:41,731:INFO:LSTM_Regressor_Fold_4 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-09 07:39:41,731:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:39:41,749:INFO:Linear Regression Performance: MAE=3.87, RMSE=4.89, R2_Score=-368.2724
+2025-01-09 07:39:41,992:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:39:42,203:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:39:42,203:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:39:42,807:INFO:XGBoost Regressor Performance: MAE=0.39, RMSE=0.45, R2_Score=-2.1313
+2025-01-09 07:39:43,085:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:39:43,318:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:39:43,318:INFO:Starting Fold 5.
+2025-01-09 07:39:43,318:INFO:Fold 5 - Training samples: 188, Testing samples: 37
+2025-01-09 07:39:43,318:INFO:Fold 5 - Number of features to select: 18
+2025-01-09 07:39:43,318:INFO:Performing RFE within fold.
+2025-01-09 07:39:48,491:INFO:Selected Features after RFE: ['Sentiment_Score', 'price', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Month_Cos', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TotalVolume_Lag_3', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'TotalVolume_Lag_7', 'HashRate_Lag_7', 'TransactionVolume_Lag_7']
+2025-01-09 07:39:48,520:INFO:RFE transformer saved to D:/bitcoin/models\rfe_transformer_fold.joblib.
+2025-01-09 07:39:48,520:INFO:Number of features selected: 18
+2025-01-09 07:39:48,520:INFO:Creating sequences with sequence length = 14.
+2025-01-09 07:39:48,520:INFO:Created sequences: (211, 14, 18) samples, (211,) targets.
+2025-01-09 07:39:48,520:INFO:Fold 5 - Training sequences: (174, 14, 18), Testing sequences: (37, 14, 18)
+2025-01-09 07:39:48,520:INFO:Building the improved LSTM model.
+2025-01-09 07:39:48,558:INFO:Improved LSTM model built and compiled.
+2025-01-09 07:39:52,821:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-09 07:39:52,821:INFO:Evaluating the model.
+2025-01-09 07:39:53,135:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.81, RMSE=1.94, R2_Score=-5.0183
+2025-01-09 07:39:53,382:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-09 07:39:53,608:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_5.png.
+2025-01-09 07:39:53,641:INFO:LSTM_Regressor_Fold_5 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-09 07:39:53,641:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:39:53,651:INFO:Linear Regression Performance: MAE=10.50, RMSE=14.55, R2_Score=-338.6030
+2025-01-09 07:39:53,895:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:39:54,107:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:39:54,107:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:39:55,082:INFO:XGBoost Regressor Performance: MAE=1.59, RMSE=1.79, R2_Score=-4.1474
+2025-01-09 07:39:55,338:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:39:55,574:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:39:55,574:INFO:Regression script execution completed successfully.
+2025-01-09 07:45:09,292:INFO:Data loaded successfully.
+2025-01-09 07:45:09,297:INFO:Removing highly correlated features.
+2025-01-09 07:45:09,308:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-09 07:45:09,308:INFO:Number of features before dropping: 76
+2025-01-09 07:45:09,308:INFO:Number of features after dropping: 33
+2025-01-09 07:45:09,309:INFO:Starting Fold 1.
+2025-01-09 07:45:09,309:INFO:Fold 1 - Training samples: 40, Testing samples: 37
+2025-01-09 07:45:09,309:INFO:Performing feature selection using SelectKBest.
+2025-01-09 07:45:09,347:INFO:Selected Features: ['price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Month_Sin', 'Month_Cos', 'TotalVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TotalVolume_Lag_3', 'HashRate_Lag_3', 'HashRate_Lag_5', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-09 07:45:09,349:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-09 07:45:09,349:INFO:Number of features selected: 20
+2025-01-09 07:45:09,349:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:09,349:INFO:Created sequences: (33, 7, 20) samples, (33,) targets.
+2025-01-09 07:45:09,349:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:09,349:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-09 07:45:09,349:INFO:Fold 1 - Training sequences: (33, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-09 07:45:09,351:INFO:Building the optimized LSTM model.
+2025-01-09 07:45:09,514:INFO:Optimized LSTM model built and compiled.
+2025-01-09 07:45:28,443:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-09 07:45:28,443:INFO:Evaluating the model.
+2025-01-09 07:45:28,823:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.49, RMSE=0.61, R2_Score=-4.4535
+2025-01-09 07:45:29,071:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-09 07:45:29,290:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-09 07:45:29,346:INFO:LSTM_Regressor_Fold_1 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-09 07:45:29,346:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:45:29,352:INFO:Linear Regression Performance: MAE=0.51, RMSE=0.63, R2_Score=-4.8504
+2025-01-09 07:45:29,625:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:45:29,867:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:45:29,867:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:45:29,933:INFO:XGBoost Regressor Performance: MAE=0.46, RMSE=0.49, R2_Score=-2.5396
+2025-01-09 07:45:30,217:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:45:30,461:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:45:30,461:INFO:Starting Fold 2.
+2025-01-09 07:45:30,461:INFO:Fold 2 - Training samples: 77, Testing samples: 37
+2025-01-09 07:45:30,461:INFO:Performing feature selection using SelectKBest.
+2025-01-09 07:45:30,499:INFO:Selected Features: ['price', 'total_volume', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Month_Sin', 'Month_Cos', 'TransactionVolume_Lag_2', 'TotalVolume_Lag_5', 'TransactionVolume_Lag_5', 'TotalVolume_Lag_7', 'HashRate_Lag_7', 'TransactionVolume_Lag_7']
+2025-01-09 07:45:30,500:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-09 07:45:30,500:INFO:Number of features selected: 20
+2025-01-09 07:45:30,500:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:30,500:INFO:Created sequences: (70, 7, 20) samples, (70,) targets.
+2025-01-09 07:45:30,501:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:30,501:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-09 07:45:30,501:INFO:Fold 2 - Training sequences: (70, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-09 07:45:30,502:INFO:Building the optimized LSTM model.
+2025-01-09 07:45:30,576:INFO:Optimized LSTM model built and compiled.
+2025-01-09 07:45:48,639:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-09 07:45:48,639:INFO:Evaluating the model.
+2025-01-09 07:45:49,014:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.29, RMSE=0.39, R2_Score=-0.4044
+2025-01-09 07:45:49,261:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-09 07:45:49,487:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_2.png.
+2025-01-09 07:45:49,524:INFO:LSTM_Regressor_Fold_2 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-09 07:45:49,524:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:45:49,529:INFO:Linear Regression Performance: MAE=0.73, RMSE=0.91, R2_Score=-6.7340
+2025-01-09 07:45:49,789:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:45:50,028:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:45:50,029:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:45:50,167:INFO:XGBoost Regressor Performance: MAE=0.45, RMSE=0.55, R2_Score=-1.8299
+2025-01-09 07:45:50,438:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:45:50,654:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:45:50,655:INFO:Starting Fold 3.
+2025-01-09 07:45:50,655:INFO:Fold 3 - Training samples: 114, Testing samples: 37
+2025-01-09 07:45:50,655:INFO:Performing feature selection using SelectKBest.
+2025-01-09 07:45:50,699:INFO:Selected Features: ['price', 'total_volume', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-09 07:45:50,700:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-09 07:45:50,700:INFO:Number of features selected: 20
+2025-01-09 07:45:50,700:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:50,700:INFO:Created sequences: (107, 7, 20) samples, (107,) targets.
+2025-01-09 07:45:50,700:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:45:50,700:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-09 07:45:50,700:INFO:Fold 3 - Training sequences: (107, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-09 07:45:50,701:INFO:Building the optimized LSTM model.
+2025-01-09 07:45:50,774:INFO:Optimized LSTM model built and compiled.
+2025-01-09 07:46:07,126:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-09 07:46:07,126:INFO:Evaluating the model.
+2025-01-09 07:46:07,712:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.23, RMSE=0.26, R2_Score=-0.4841
+2025-01-09 07:46:07,981:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-09 07:46:08,221:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_3.png.
+2025-01-09 07:46:08,266:INFO:LSTM_Regressor_Fold_3 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-09 07:46:08,266:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:46:08,273:INFO:Linear Regression Performance: MAE=1.69, RMSE=1.91, R2_Score=-78.4131
+2025-01-09 07:46:08,530:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:46:08,789:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:46:08,789:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:46:09,106:INFO:XGBoost Regressor Performance: MAE=0.18, RMSE=0.22, R2_Score=-0.0324
+2025-01-09 07:46:09,423:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:46:09,716:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:46:09,716:INFO:Starting Fold 4.
+2025-01-09 07:46:09,717:INFO:Fold 4 - Training samples: 151, Testing samples: 37
+2025-01-09 07:46:09,717:INFO:Performing feature selection using SelectKBest.
+2025-01-09 07:46:09,763:INFO:Selected Features: ['price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'HashRate_Lag_1', 'TransactionVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'HashRate_Lag_7']
+2025-01-09 07:46:09,764:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-09 07:46:09,764:INFO:Number of features selected: 20
+2025-01-09 07:46:09,764:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:46:09,764:INFO:Created sequences: (144, 7, 20) samples, (144,) targets.
+2025-01-09 07:46:09,764:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:46:09,764:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-09 07:46:09,764:INFO:Fold 4 - Training sequences: (144, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-09 07:46:09,766:INFO:Building the optimized LSTM model.
+2025-01-09 07:46:09,842:INFO:Optimized LSTM model built and compiled.
+2025-01-09 07:46:26,528:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-09 07:46:26,528:INFO:Evaluating the model.
+2025-01-09 07:46:26,902:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.45, RMSE=0.53, R2_Score=-2.8058
+2025-01-09 07:46:27,146:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-09 07:46:27,370:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_4.png.
+2025-01-09 07:46:27,409:INFO:LSTM_Regressor_Fold_4 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-09 07:46:27,410:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:46:27,416:INFO:Linear Regression Performance: MAE=5.85, RMSE=6.69, R2_Score=-609.4443
+2025-01-09 07:46:27,670:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:46:27,899:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:46:27,899:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:46:28,267:INFO:XGBoost Regressor Performance: MAE=0.54, RMSE=0.61, R2_Score=-4.0035
+2025-01-09 07:46:28,532:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:46:28,763:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:46:28,764:INFO:Starting Fold 5.
+2025-01-09 07:46:28,764:INFO:Fold 5 - Training samples: 188, Testing samples: 37
+2025-01-09 07:46:28,764:INFO:Performing feature selection using SelectKBest.
+2025-01-09 07:46:28,817:INFO:Selected Features: ['Sentiment_Score', 'price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'TransactionVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-09 07:46:28,818:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-09 07:46:28,819:INFO:Number of features selected: 20
+2025-01-09 07:46:28,819:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:46:28,819:INFO:Created sequences: (181, 7, 20) samples, (181,) targets.
+2025-01-09 07:46:28,819:INFO:Creating sequences with sequence length = 7.
+2025-01-09 07:46:28,819:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-09 07:46:28,819:INFO:Fold 5 - Training sequences: (181, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-09 07:46:28,821:INFO:Building the optimized LSTM model.
+2025-01-09 07:46:28,892:INFO:Optimized LSTM model built and compiled.
+2025-01-09 07:46:34,739:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-09 07:46:34,739:INFO:Evaluating the model.
+2025-01-09 07:46:35,102:WARNING:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000024C5A4C5AB0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-09 07:46:35,125:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.86, RMSE=1.91, R2_Score=-15.3886
+2025-01-09 07:46:35,364:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-09 07:46:35,607:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_5.png.
+2025-01-09 07:46:35,645:INFO:LSTM_Regressor_Fold_5 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-09 07:46:35,646:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-09 07:46:35,653:INFO:Linear Regression Performance: MAE=0.53, RMSE=0.63, R2_Score=-0.8026
+2025-01-09 07:46:35,898:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-09 07:46:36,115:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-09 07:46:36,115:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-09 07:46:36,607:INFO:XGBoost Regressor Performance: MAE=1.95, RMSE=2.01, R2_Score=-17.1421
+2025-01-09 07:46:36,866:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-09 07:46:37,079:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-09 07:46:37,079:INFO:Regression script execution completed successfully.
+2025-01-25 10:24:14,809:INFO:Data loaded successfully.
+2025-01-25 10:24:14,837:INFO:Removing highly correlated features.
+2025-01-25 10:24:14,850:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-25 10:24:14,851:INFO:Number of features before dropping: 76
+2025-01-25 10:24:14,851:INFO:Number of features after dropping: 33
+2025-01-25 10:24:14,853:INFO:Starting Fold 1.
+2025-01-25 10:24:14,853:INFO:Fold 1 - Training samples: 40, Testing samples: 37
+2025-01-25 10:24:14,853:INFO:Performing feature selection using SelectKBest.
+2025-01-25 10:24:14,900:INFO:Selected Features: ['price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Month_Sin', 'Month_Cos', 'TotalVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TotalVolume_Lag_3', 'HashRate_Lag_3', 'HashRate_Lag_5', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-25 10:24:14,905:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-25 10:24:14,905:INFO:Number of features selected: 20
+2025-01-25 10:24:14,906:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:14,906:INFO:Created sequences: (33, 7, 20) samples, (33,) targets.
+2025-01-25 10:24:14,906:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:14,906:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-25 10:24:14,906:INFO:Fold 1 - Training sequences: (33, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-25 10:24:14,908:INFO:Building the optimized LSTM model.
+2025-01-25 10:24:15,784:INFO:Optimized LSTM model built and compiled.
+2025-01-25 10:24:24,875:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-25 10:24:24,875:INFO:Evaluating the model.
+2025-01-25 10:24:25,821:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.42, RMSE=0.53, R2_Score=-3.1716
+2025-01-25 10:24:26,104:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-25 10:24:26,395:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_1.png.
+2025-01-25 10:24:26,432:INFO:LSTM_Regressor_Fold_1 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-25 10:24:26,432:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-25 10:24:26,446:INFO:Linear Regression Performance: MAE=0.51, RMSE=0.63, R2_Score=-4.8504
+2025-01-25 10:24:26,737:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-25 10:24:27,004:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-25 10:24:27,005:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-25 10:24:27,108:INFO:XGBoost Regressor Performance: MAE=0.46, RMSE=0.49, R2_Score=-2.5396
+2025-01-25 10:24:27,404:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-25 10:24:27,663:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-25 10:24:27,664:INFO:Starting Fold 2.
+2025-01-25 10:24:27,664:INFO:Fold 2 - Training samples: 77, Testing samples: 37
+2025-01-25 10:24:27,664:INFO:Performing feature selection using SelectKBest.
+2025-01-25 10:24:27,711:INFO:Selected Features: ['price', 'total_volume', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Month_Sin', 'Month_Cos', 'TransactionVolume_Lag_2', 'TotalVolume_Lag_5', 'TransactionVolume_Lag_5', 'TotalVolume_Lag_7', 'HashRate_Lag_7', 'TransactionVolume_Lag_7']
+2025-01-25 10:24:27,715:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-25 10:24:27,715:INFO:Number of features selected: 20
+2025-01-25 10:24:27,715:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:27,715:INFO:Created sequences: (70, 7, 20) samples, (70,) targets.
+2025-01-25 10:24:27,715:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:27,715:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-25 10:24:27,715:INFO:Fold 2 - Training sequences: (70, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-25 10:24:27,716:INFO:Building the optimized LSTM model.
+2025-01-25 10:24:28,340:INFO:Optimized LSTM model built and compiled.
+2025-01-25 10:24:45,648:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-25 10:24:45,649:INFO:Evaluating the model.
+2025-01-25 10:24:46,558:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.34, RMSE=0.39, R2_Score=-0.4048
+2025-01-25 10:24:46,845:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-25 10:24:47,093:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_2.png.
+2025-01-25 10:24:47,135:INFO:LSTM_Regressor_Fold_2 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-25 10:24:47,135:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-25 10:24:47,143:INFO:Linear Regression Performance: MAE=0.73, RMSE=0.91, R2_Score=-6.7340
+2025-01-25 10:24:47,434:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-25 10:24:47,706:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-25 10:24:47,706:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-25 10:24:47,891:INFO:XGBoost Regressor Performance: MAE=0.45, RMSE=0.55, R2_Score=-1.8299
+2025-01-25 10:24:48,220:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-25 10:24:48,470:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-25 10:24:48,470:INFO:Starting Fold 3.
+2025-01-25 10:24:48,471:INFO:Fold 3 - Training samples: 114, Testing samples: 37
+2025-01-25 10:24:48,471:INFO:Performing feature selection using SelectKBest.
+2025-01-25 10:24:48,578:INFO:Selected Features: ['price', 'total_volume', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-25 10:24:48,583:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-25 10:24:48,583:INFO:Number of features selected: 20
+2025-01-25 10:24:48,585:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:48,586:INFO:Created sequences: (107, 7, 20) samples, (107,) targets.
+2025-01-25 10:24:48,586:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:24:48,586:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-25 10:24:48,589:INFO:Fold 3 - Training sequences: (107, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-25 10:24:48,608:INFO:Building the optimized LSTM model.
+2025-01-25 10:24:49,378:INFO:Optimized LSTM model built and compiled.
+2025-01-25 10:25:01,877:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-25 10:25:01,878:INFO:Evaluating the model.
+2025-01-25 10:25:03,370:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.40, RMSE=0.45, R2_Score=-3.3861
+2025-01-25 10:25:03,836:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-25 10:25:04,236:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_3.png.
+2025-01-25 10:25:04,271:INFO:LSTM_Regressor_Fold_3 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-25 10:25:04,271:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-25 10:25:04,282:INFO:Linear Regression Performance: MAE=1.69, RMSE=1.91, R2_Score=-78.4131
+2025-01-25 10:25:04,564:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-25 10:25:05,231:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-25 10:25:05,231:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-25 10:25:05,507:INFO:XGBoost Regressor Performance: MAE=0.18, RMSE=0.22, R2_Score=-0.0324
+2025-01-25 10:25:05,832:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-25 10:25:06,167:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-25 10:25:06,167:INFO:Starting Fold 4.
+2025-01-25 10:25:06,168:INFO:Fold 4 - Training samples: 151, Testing samples: 37
+2025-01-25 10:25:06,168:INFO:Performing feature selection using SelectKBest.
+2025-01-25 10:25:06,256:INFO:Selected Features: ['price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'HashRate_Lag_1', 'TransactionVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'HashRate_Lag_7']
+2025-01-25 10:25:06,260:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-25 10:25:06,261:INFO:Number of features selected: 20
+2025-01-25 10:25:06,261:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:25:06,261:INFO:Created sequences: (144, 7, 20) samples, (144,) targets.
+2025-01-25 10:25:06,261:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:25:06,262:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-25 10:25:06,262:INFO:Fold 4 - Training sequences: (144, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-25 10:25:06,263:INFO:Building the optimized LSTM model.
+2025-01-25 10:25:07,152:INFO:Optimized LSTM model built and compiled.
+2025-01-25 10:25:21,685:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-25 10:25:21,685:INFO:Evaluating the model.
+2025-01-25 10:25:22,610:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.54, RMSE=0.65, R2_Score=-4.8295
+2025-01-25 10:25:22,887:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-25 10:25:23,148:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_4.png.
+2025-01-25 10:25:23,188:INFO:LSTM_Regressor_Fold_4 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-25 10:25:23,188:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-25 10:25:23,199:INFO:Linear Regression Performance: MAE=5.85, RMSE=6.69, R2_Score=-609.4443
+2025-01-25 10:25:23,482:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-25 10:25:23,924:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-25 10:25:23,924:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-25 10:25:24,367:INFO:XGBoost Regressor Performance: MAE=0.54, RMSE=0.61, R2_Score=-4.0035
+2025-01-25 10:25:24,855:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-25 10:25:25,194:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-25 10:25:25,195:INFO:Starting Fold 5.
+2025-01-25 10:25:25,195:INFO:Fold 5 - Training samples: 188, Testing samples: 37
+2025-01-25 10:25:25,195:INFO:Performing feature selection using SelectKBest.
+2025-01-25 10:25:25,290:INFO:Selected Features: ['Sentiment_Score', 'price', 'hash_rate_ths', 'transaction_volume', 'MA_50', 'RSI_14', 'Bollinger_Low', 'MACD', 'MACD_Diff', 'Day', 'Month', 'Quarter', 'Weekday_Cos', 'Month_Sin', 'Month_Cos', 'TransactionVolume_Lag_1', 'TotalVolume_Lag_2', 'TransactionVolume_Lag_3', 'TransactionVolume_Lag_5', 'TransactionVolume_Lag_7']
+2025-01-25 10:25:25,295:INFO:SelectKBest transformer saved to D:/bitcoin/models\selectkbest_fold.joblib.
+2025-01-25 10:25:25,295:INFO:Number of features selected: 20
+2025-01-25 10:25:25,296:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:25:25,297:INFO:Created sequences: (181, 7, 20) samples, (181,) targets.
+2025-01-25 10:25:25,297:INFO:Creating sequences with sequence length = 7.
+2025-01-25 10:25:25,297:INFO:Created sequences: (30, 7, 20) samples, (30,) targets.
+2025-01-25 10:25:25,297:INFO:Fold 5 - Training sequences: (181, 7, 20), Testing sequences: (30, 7, 20)
+2025-01-25 10:25:25,299:INFO:Building the optimized LSTM model.
+2025-01-25 10:25:26,297:INFO:Optimized LSTM model built and compiled.
+2025-01-25 10:25:35,077:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-25 10:25:35,078:INFO:Evaluating the model.
+2025-01-25 10:25:36,368:WARNING:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001FB91B94C10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-25 10:25:36,383:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.64, RMSE=1.71, R2_Score=-12.0972
+2025-01-25 10:25:36,676:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-25 10:25:36,941:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_LSTM_Regressor_Fold_5.png.
+2025-01-25 10:25:36,985:INFO:LSTM_Regressor_Fold_5 model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-25 10:25:36,985:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-25 10:25:36,996:INFO:Linear Regression Performance: MAE=0.53, RMSE=0.63, R2_Score=-0.8026
+2025-01-25 10:25:37,318:INFO:Actual vs Predicted plot for Linear Regression saved to D:/bitcoin/evaluation\actual_vs_predicted_Linear_Regression.png.
+2025-01-25 10:25:37,681:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_Linear_Regression.png.
+2025-01-25 10:25:37,681:INFO:Training and evaluating the baseline XGBoost Regressor model.
+2025-01-25 10:25:38,308:INFO:XGBoost Regressor Performance: MAE=1.95, RMSE=2.01, R2_Score=-17.1421
+2025-01-25 10:25:38,626:INFO:Actual vs Predicted plot for XGBoost Regressor saved to D:/bitcoin/evaluation\actual_vs_predicted_XGBoost.png.
+2025-01-25 10:25:38,866:INFO:Residuals distribution plot saved to D:/bitcoin/evaluation\residuals_distribution_XGBoost_Regressor.png.
+2025-01-25 10:25:38,866:INFO:Regression script execution completed successfully.

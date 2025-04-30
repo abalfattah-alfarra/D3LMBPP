@@ -1,0 +1,256 @@
+2025-01-05 22:18:52,218:INFO:Data loaded successfully.
+2025-01-05 22:22:55,705:INFO:Data loaded successfully.
+2025-01-05 22:22:55,705:ERROR:'Target_Price' column is missing from the DataFrame.
+2025-01-05 22:36:25,840:ERROR:Data file not found at D:/bitcoin/features\feature_engineered_data.csv.
+2025-01-05 22:37:20,198:INFO:Data loaded successfully.
+2025-01-05 22:37:20,198:ERROR:'Target_Price' column is missing from the DataFrame.
+2025-01-05 22:38:54,620:ERROR:Feature-engineered data file not found at D:/bitcoin/features\feature_engineered_data.csv.
+2025-01-05 22:39:20,388:ERROR:Feature-engineered data file not found at D:/bitcoin/features\feature_engineered_data.csv.
+2025-01-05 22:40:06,856:INFO:Technical indicators added successfully.
+2025-01-05 22:40:06,856:INFO:Time-based features added successfully.
+2025-01-05 22:40:06,872:INFO:Lagged features added successfully.
+2025-01-05 22:40:06,887:INFO:Missing values after feature engineering handled successfully.
+2025-01-05 22:40:06,903:INFO:Feature scaler saved successfully to D:/bitcoin/features\feature_scaler.pkl.
+2025-01-05 22:40:06,944:INFO:Feature-engineered data saved successfully to D:/bitcoin/features\feature_engineered_data.csv.
+2025-01-05 22:42:31,324:INFO:Data loaded successfully.
+2025-01-05 22:42:31,324:ERROR:'Target_Price' column is missing from the DataFrame.
+2025-01-05 22:54:02,990:INFO:Data loaded successfully.
+2025-01-05 22:54:03,005:INFO:Scaler saved to D:/bitcoin/models\scaler_lstm.joblib.
+2025-01-05 22:54:03,006:INFO:Data preprocessed: (253, 7, 75) samples, (253, 1) targets.
+2025-01-05 22:54:03,006:INFO:Training samples: 202, Testing samples: 51
+2025-01-05 22:54:03,273:INFO:LSTM model built and compiled.
+2025-01-05 22:54:13,395:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 22:54:13,916:INFO:LSTM Performance: MAE=0.36, RMSE=0.44, R2_Score=-1.6994
+2025-01-05 22:54:14,105:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 22:54:14,105:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 22:54:14,168:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 22:58:32,220:INFO:Data loaded successfully.
+2025-01-05 22:58:32,220:INFO:Scaler saved to D:/bitcoin/models\scaler_lstm.joblib.
+2025-01-05 22:58:32,220:INFO:Data preprocessed: (253, 7, 75) samples, (253, 1) targets.
+2025-01-05 22:58:32,220:INFO:Training samples: 202, Testing samples: 51
+2025-01-05 22:58:32,299:INFO:LSTM model built and compiled.
+2025-01-05 22:58:41,671:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 22:58:42,161:INFO:LSTM Performance: MAE=0.43, RMSE=0.51, R2_Score=-2.4916
+2025-01-05 22:58:42,372:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 22:58:42,372:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 22:58:42,396:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:06:44,332:INFO:Data loaded successfully.
+2025-01-05 23:06:44,341:INFO:Scaler saved to D:/bitcoin/models\scaler_lstm.joblib.
+2025-01-05 23:06:44,342:INFO:Data preprocessed: (253, 7, 75) samples, (253, 1) targets.
+2025-01-05 23:06:44,342:INFO:Training samples: 202, Testing samples: 51
+2025-01-05 23:06:44,509:INFO:LSTM model built and compiled.
+2025-01-05 23:06:55,869:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:06:56,384:INFO:LSTM Performance: MAE=1.19, RMSE=1.25, R2_Score=-20.2246
+2025-01-05 23:06:56,578:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:06:56,579:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:06:56,625:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:10:25,380:INFO:Data loaded successfully.
+2025-01-05 23:10:25,390:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:10:25,390:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:10:25,391:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:10:25,509:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:10:33,554:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:10:34,071:INFO:LSTM Performance: MAE=0.22, RMSE=0.26, R2_Score=-0.1879
+2025-01-05 23:10:34,265:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:10:34,265:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:10:34,298:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:13:30,931:INFO:Data loaded successfully.
+2025-01-05 23:13:30,940:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:13:30,941:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:13:30,941:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:13:31,057:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:13:38,447:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:13:39,159:INFO:LSTM Performance: MAE=0.19, RMSE=0.24, R2_Score=0.0166
+2025-01-05 23:13:39,371:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:13:39,371:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:13:39,410:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:27:21,762:INFO:Data loaded successfully.
+2025-01-05 23:27:22,764:INFO:Top 20 features selected based on importance.
+2025-01-05 23:27:22,773:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:27:22,773:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:27:22,773:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:27:22,870:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:27:26,396:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:27:26,715:INFO:LSTM Performance: MAE=0.99, RMSE=1.02, R2_Score=-16.6664
+2025-01-05 23:27:26,917:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:27:26,917:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:27:26,946:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:31:14,374:INFO:Data loaded successfully.
+2025-01-05 23:31:15,436:INFO:Top 20 features selected based on importance.
+2025-01-05 23:31:15,445:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:31:15,445:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:31:15,445:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:31:15,542:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:31:19,064:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:31:19,378:INFO:LSTM Performance: MAE=1.46, RMSE=1.52, R2_Score=-38.4079
+2025-01-05 23:31:19,557:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:31:19,558:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:31:19,588:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:35:01,004:INFO:Data loaded successfully.
+2025-01-05 23:35:02,071:INFO:Top 20 features selected based on importance.
+2025-01-05 23:35:02,090:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:35:02,090:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:35:02,090:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:35:02,227:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:35:12,154:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:35:12,526:INFO:LSTM Performance: MAE=0.19, RMSE=0.23, R2_Score=0.0897
+2025-01-05 23:35:12,729:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:35:12,729:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:35:12,756:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-05 23:38:14,545:INFO:Data loaded successfully.
+2025-01-05 23:38:15,642:INFO:Top 20 features selected based on importance.
+2025-01-05 23:38:15,651:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-05 23:38:15,651:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-05 23:38:15,652:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-05 23:38:15,688:INFO:Simplified LSTM model built and compiled.
+2025-01-05 23:38:21,868:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-05 23:38:22,180:INFO:LSTM Performance: MAE=0.23, RMSE=0.29, R2_Score=-0.4496
+2025-01-05 23:38:22,379:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-05 23:38:22,379:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-05 23:38:22,413:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-06 02:08:07,771:INFO:Data loaded successfully.
+2025-01-06 02:08:08,812:INFO:Top 20 features selected based on importance.
+2025-01-06 02:08:08,828:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-06 02:08:08,828:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-06 02:08:08,828:INFO:Data preprocessed: 201 training samples, 45 testing samples.
+2025-01-06 02:08:09,034:INFO:Simplified LSTM model built and compiled.
+2025-01-06 02:08:15,197:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-06 02:08:15,560:INFO:LSTM Performance: MAE=0.23, RMSE=0.29, R2_Score=-0.4518
+2025-01-06 02:08:15,765:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-06 02:08:15,765:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-06 02:08:15,812:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-06 02:17:30,388:INFO:Data loaded successfully.
+2025-01-06 02:17:47,084:INFO:Data loaded successfully.
+2025-01-06 02:23:46,121:INFO:Data loaded successfully.
+2025-01-06 02:23:47,160:INFO:Top 20 features selected based on importance.
+2025-01-06 02:23:47,176:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-06 02:23:47,176:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-06 02:23:47,176:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-06 02:23:47,301:INFO:Simplified LSTM model built and compiled.
+2025-01-06 02:23:59,439:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-06 02:23:59,807:INFO:LSTM Performance: MAE=0.37, RMSE=0.47, R2_Score=-2.7814
+2025-01-06 02:24:00,054:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-06 02:24:00,054:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-06 02:24:00,102:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-06 02:24:13,582:INFO:Data loaded successfully.
+2025-01-06 02:24:14,545:INFO:Top 20 features selected based on importance.
+2025-01-06 02:24:14,545:INFO:Feature scaler saved to D:/bitcoin/models\feature_scaler_lstm.joblib.
+2025-01-06 02:24:14,545:INFO:Target scaler saved to D:/bitcoin/models\target_scaler_lstm.joblib.
+2025-01-06 02:24:14,545:INFO:Data preprocessed: 200 training samples, 45 testing samples.
+2025-01-06 02:24:14,655:INFO:Simplified LSTM model built and compiled.
+2025-01-06 02:24:23,489:INFO:Training loss plot saved to D:/bitcoin/evaluation\lstm_training_loss.png.
+2025-01-06 02:24:23,836:INFO:LSTM Performance: MAE=0.25, RMSE=0.31, R2_Score=-0.6349
+2025-01-06 02:24:24,040:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM.png.
+2025-01-06 02:24:24,040:WARNING:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-01-06 02:24:24,072:INFO:LSTM model saved to D:/bitcoin/models\best_model_LSTM.h5.
+2025-01-06 11:43:38,969:INFO:Data loaded successfully.
+2025-01-06 11:47:49,019:INFO:Data loaded successfully.
+2025-01-08 11:17:09,637:INFO:Data loaded successfully.
+2025-01-08 11:17:09,639:INFO:Starting data preprocessing.
+2025-01-08 11:17:09,640:INFO:Scaling features.
+2025-01-08 11:17:09,651:INFO:Scaler saved to D:/bitcoin/models\scaler_regression.joblib.
+2025-01-08 11:17:09,651:INFO:Creating sequences for LSTM.
+2025-01-08 11:17:09,652:INFO:Data preprocessed: (218, 7, 76) samples, (218, 1) targets.
+2025-01-08 11:17:09,652:INFO:Training samples: 174, Testing samples: 44
+2025-01-08 11:17:09,652:INFO:Building the LSTM model.
+2025-01-08 11:17:09,932:INFO:Enhanced LSTM model built and compiled.
+2025-01-08 11:19:38,982:INFO:Data loaded successfully.
+2025-01-08 11:19:38,984:INFO:Starting data preprocessing.
+2025-01-08 11:19:38,984:INFO:Scaling features.
+2025-01-08 11:19:38,990:INFO:Scaler saved to D:/bitcoin/models\scaler_regression.joblib.
+2025-01-08 11:19:38,990:INFO:Creating sequences for LSTM.
+2025-01-08 11:19:38,991:INFO:Data preprocessed: (218, 7, 76) samples, (218, 1) targets.
+2025-01-08 11:19:38,991:INFO:Training samples: 174, Testing samples: 44
+2025-01-08 11:19:38,991:INFO:Building the LSTM model.
+2025-01-08 11:19:39,142:INFO:Enhanced LSTM model built and compiled.
+2025-01-08 11:19:50,479:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_training_loss.png.
+2025-01-08 11:19:50,486:INFO:Evaluating the model.
+2025-01-08 11:19:51,206:INFO:LSTM_Regressor Performance: MAE=1.50, RMSE=1.74, R2_Score=-2.6929
+2025-01-08 11:19:51,450:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor.png.
+2025-01-08 11:19:51,498:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor.keras.
+2025-01-08 11:19:51,498:INFO:Regression script execution completed successfully.
+2025-01-08 11:21:59,315:INFO:Data loaded successfully.
+2025-01-08 11:21:59,316:INFO:Starting data preprocessing.
+2025-01-08 11:21:59,316:INFO:Scaling features.
+2025-01-08 11:21:59,320:INFO:Scaling target variable.
+2025-01-08 11:21:59,324:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 11:21:59,324:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 11:21:59,324:INFO:Creating sequences for LSTM.
+2025-01-08 11:21:59,324:INFO:Data preprocessed: (218, 7, 76) samples, (218, 1) targets.
+2025-01-08 11:21:59,325:INFO:Training samples: 174, Testing samples: 44
+2025-01-08 11:21:59,325:INFO:Building the LSTM model.
+2025-01-08 11:21:59,474:INFO:Enhanced LSTM model built and compiled.
+2025-01-08 11:22:06,069:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_training_loss.png.
+2025-01-08 11:22:06,069:INFO:Evaluating the model.
+2025-01-08 11:22:06,923:INFO:LSTM_Regressor Performance: MAE=1.35, RMSE=1.58, R2_Score=-2.0557
+2025-01-08 11:22:07,160:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor.png.
+2025-01-08 11:22:07,206:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor.keras.
+2025-01-08 11:22:07,206:INFO:Regression script execution completed successfully.
+2025-01-08 11:24:40,136:INFO:Data loaded successfully.
+2025-01-08 11:24:40,138:INFO:Starting data preprocessing.
+2025-01-08 11:24:40,138:INFO:Scaling features.
+2025-01-08 11:24:40,142:INFO:Scaling target variable.
+2025-01-08 11:24:40,145:INFO:Feature scaler saved to D:/bitcoin/models\scaler_features.joblib.
+2025-01-08 11:24:40,146:INFO:Target scaler saved to D:/bitcoin/models\scaler_target.joblib.
+2025-01-08 11:24:40,155:INFO:Dropping 43 highly correlated features: ['market_cap', 'MA_10', 'EMA_10', 'EMA_50', 'Bollinger_High', 'Bollinger_Middle', 'MACD_Signal', 'EMA_Diff', 'Price_Lag_1', 'MarketCap_Lag_1', 'Price_Lag_2', 'MarketCap_Lag_2', 'Price_Lag_3', 'MarketCap_Lag_3', 'Price_Lag_5', 'MarketCap_Lag_5', 'Price_Lag_7', 'MarketCap_Lag_7', 'price_Lag_1', 'price_Lag_2', 'price_Lag_3', 'price_Lag_5', 'price_Lag_7', 'market_cap_Lag_1', 'market_cap_Lag_2', 'market_cap_Lag_3', 'market_cap_Lag_5', 'market_cap_Lag_7', 'total_volume_Lag_1', 'total_volume_Lag_2', 'total_volume_Lag_3', 'total_volume_Lag_5', 'total_volume_Lag_7', 'hash_rate_ths_Lag_1', 'hash_rate_ths_Lag_2', 'hash_rate_ths_Lag_3', 'hash_rate_ths_Lag_5', 'hash_rate_ths_Lag_7', 'transaction_volume_Lag_1', 'transaction_volume_Lag_2', 'transaction_volume_Lag_3', 'transaction_volume_Lag_5', 'transaction_volume_Lag_7']
+2025-01-08 11:24:40,158:INFO:Reduced feature scaler saved to D:/bitcoin/models\scaler_features_reduced.joblib.
+2025-01-08 11:24:40,158:INFO:Creating sequences for LSTM.
+2025-01-08 11:24:40,158:INFO:Data preprocessed: (218, 7, 33) samples, (218, 1) targets.
+2025-01-08 11:24:40,159:INFO:Starting Fold 1.
+2025-01-08 11:24:40,159:INFO:Fold 1 - Training samples: 38, Testing samples: 36
+2025-01-08 11:24:40,159:INFO:Building the simpler LSTM model.
+2025-01-08 11:24:40,257:INFO:Simpler LSTM model built and compiled.
+2025-01-08 11:24:46,416:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_1_training_loss.png.
+2025-01-08 11:24:46,416:INFO:Evaluating the model.
+2025-01-08 11:24:46,742:INFO:LSTM_Regressor_Fold_1 Performance: MAE=0.18, RMSE=0.23, R2_Score=0.2450
+2025-01-08 11:24:46,999:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_1.png.
+2025-01-08 11:24:47,026:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_1.keras.
+2025-01-08 11:24:47,027:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 11:24:47,049:INFO:Linear Regression Performance: MAE=0.63, RMSE=0.69, R2_Score=-5.6237
+2025-01-08 11:24:47,050:INFO:Starting Fold 2.
+2025-01-08 11:24:47,050:INFO:Fold 2 - Training samples: 74, Testing samples: 36
+2025-01-08 11:24:47,050:INFO:Building the simpler LSTM model.
+2025-01-08 11:24:47,088:INFO:Simpler LSTM model built and compiled.
+2025-01-08 11:24:51,179:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_2_training_loss.png.
+2025-01-08 11:24:51,180:INFO:Evaluating the model.
+2025-01-08 11:24:51,494:INFO:LSTM_Regressor_Fold_2 Performance: MAE=0.26, RMSE=0.34, R2_Score=-0.2179
+2025-01-08 11:24:51,751:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_2.png.
+2025-01-08 11:24:51,778:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_2.keras.
+2025-01-08 11:24:51,778:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 11:24:51,784:INFO:Linear Regression Performance: MAE=0.58, RMSE=0.74, R2_Score=-4.6214
+2025-01-08 11:24:51,784:INFO:Starting Fold 3.
+2025-01-08 11:24:51,784:INFO:Fold 3 - Training samples: 110, Testing samples: 36
+2025-01-08 11:24:51,784:INFO:Building the simpler LSTM model.
+2025-01-08 11:24:51,820:INFO:Simpler LSTM model built and compiled.
+2025-01-08 11:24:55,328:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_3_training_loss.png.
+2025-01-08 11:24:55,328:INFO:Evaluating the model.
+2025-01-08 11:24:55,496:WARNING:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001F77287A200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 11:24:55,625:WARNING:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001F77287A200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-01-08 11:24:55,650:INFO:LSTM_Regressor_Fold_3 Performance: MAE=0.23, RMSE=0.28, R2_Score=-0.4154
+2025-01-08 11:24:55,903:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_3.png.
+2025-01-08 11:24:55,932:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_3.keras.
+2025-01-08 11:24:55,932:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 11:24:55,955:INFO:Linear Regression Performance: MAE=5.22, RMSE=5.57, R2_Score=-568.4867
+2025-01-08 11:24:55,955:INFO:Starting Fold 4.
+2025-01-08 11:24:55,955:INFO:Fold 4 - Training samples: 146, Testing samples: 36
+2025-01-08 11:24:55,955:INFO:Building the simpler LSTM model.
+2025-01-08 11:24:55,994:INFO:Simpler LSTM model built and compiled.
+2025-01-08 11:24:59,324:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_4_training_loss.png.
+2025-01-08 11:24:59,324:INFO:Evaluating the model.
+2025-01-08 11:24:59,644:INFO:LSTM_Regressor_Fold_4 Performance: MAE=0.23, RMSE=0.29, R2_Score=-0.1946
+2025-01-08 11:24:59,903:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_4.png.
+2025-01-08 11:24:59,929:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_4.keras.
+2025-01-08 11:24:59,929:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 11:24:59,941:INFO:Linear Regression Performance: MAE=0.90, RMSE=1.09, R2_Score=-16.4074
+2025-01-08 11:24:59,941:INFO:Starting Fold 5.
+2025-01-08 11:24:59,941:INFO:Fold 5 - Training samples: 182, Testing samples: 36
+2025-01-08 11:24:59,941:INFO:Building the simpler LSTM model.
+2025-01-08 11:24:59,979:INFO:Simpler LSTM model built and compiled.
+2025-01-08 11:25:03,615:INFO:Training loss plot saved to D:/bitcoin/evaluation\LSTM_Regressor_Fold_5_training_loss.png.
+2025-01-08 11:25:03,615:INFO:Evaluating the model.
+2025-01-08 11:25:03,936:INFO:LSTM_Regressor_Fold_5 Performance: MAE=1.39, RMSE=1.53, R2_Score=-3.0343
+2025-01-08 11:25:04,226:INFO:Actual vs Predicted plot saved to D:/bitcoin/evaluation\actual_vs_predicted_LSTM_Regressor_Fold_5.png.
+2025-01-08 11:25:04,269:INFO:LSTM regression model saved to D:/bitcoin/models\best_model_LSTM_Regressor_Fold_5.keras.
+2025-01-08 11:25:04,269:INFO:Training and evaluating the baseline Linear Regression model.
+2025-01-08 11:25:04,488:INFO:Linear Regression Performance: MAE=3.09, RMSE=3.68, R2_Score=-22.4082
+2025-01-08 11:25:04,489:INFO:Regression script execution completed successfully.

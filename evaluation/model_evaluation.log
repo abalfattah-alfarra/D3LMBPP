@@ -1,0 +1,19 @@
+2025-01-05 21:44:48,402:INFO:Loaded feature-engineered data successfully.
+2025-01-05 21:44:48,402:INFO:Target variable 'Target_Price' defined successfully.
+2025-01-05 21:44:48,402:INFO:Data split into 80% training and 20% testing.
+2025-01-05 21:45:15,535:ERROR:Model file not found at D:/bitcoin/models\best_model_Random_Forest.joblib.
+2025-01-05 22:10:02,304:INFO:Loaded feature-engineered data successfully.
+2025-01-05 22:10:02,306:INFO:Target variable 'Target_Price' defined successfully.
+2025-01-05 22:10:02,307:INFO:Data split into 80% training and 20% testing.
+2025-01-05 22:10:10,268:INFO:Loaded model 'best_model_Linear_Regression.joblib' successfully.
+2025-01-05 22:10:10,270:INFO:Predictions made with model 'best_model_Linear_Regression.joblib'.
+2025-01-05 22:10:10,272:INFO:best_model_Linear_Regression.joblib Performance on Test Set: MAE=0.57, RMSE=0.71, R2=-0.1751
+2025-01-05 22:10:10,272:WARNING:best_model_Linear_Regression.joblib does not have feature_importances_ attribute.
+2025-01-05 22:10:10,544:INFO:Residual plot saved to D:/bitcoin/evaluation\residual_plot_best_model_Linear_Regression.joblib.png.
+2025-01-05 22:10:10,574:INFO:Cross-Validation RMSE Scores: [0.20273964 0.15674974 0.16536169 0.14675789 0.18057179]
+2025-01-05 22:10:10,574:INFO:Mean CV RMSE: 0.17
+2025-01-05 22:10:10,574:INFO:Standard Deviation of CV RMSE: 0.02
+2025-01-05 22:10:10,723:INFO:Cross-validation RMSE boxplot saved to D:/bitcoin/evaluation\cross_validation_rmse.png.
+2025-01-05 22:10:10,726:INFO:Model evaluation metrics saved to 'model_evaluation_metrics.csv'.
+2025-01-05 22:10:10,727:INFO:Cross-validation scores saved to 'cross_validation_scores.csv'.
+2025-01-05 22:10:10,727:INFO:Model evaluation and selection completed successfully.
